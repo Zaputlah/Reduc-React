@@ -153,7 +153,7 @@ const Dashboard = () => {
                 value={searchQuery}
                 onChange={handleSearchChange}
             />
-            // {filteredData.map((barang) => (
+            
                 <ul className="list-group">
                     {currentData.map((barang) => (
                         <li key={barang.id} className="list-group-item">
@@ -186,7 +186,6 @@ const Dashboard = () => {
                         </li>
                     ))}
                 </ul>
-            // ))}
 
             <div className="pagination mr-4" style={paginationStyle}>
                 {pageNumbers.map((pageNumber) => (
