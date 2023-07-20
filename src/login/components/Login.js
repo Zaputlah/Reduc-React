@@ -20,7 +20,7 @@ const Login = () => {
             // Lakukan hal setelah login berhasil di sini (misalnya, mengatur token otentikasi)
         } else {
             // Kredensial tidak valid
-            setError("Kredensial tidak valid.");
+            setError("gagal masuk");
         }
     };
 
